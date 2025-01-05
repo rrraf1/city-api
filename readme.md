@@ -45,30 +45,12 @@ go mod init your-url
 go mod tidy
 ```
 
-3. Prepare data files
-- Create 
-
-data
-
- folder in root directory
-- Add required CSV files:
-  - 
-
-kabkota.csv
-
- (Cities data)
-  - 
-
-desakel.csv
-
- (Villages data)
-
-4. Configure environment
+3. Configure environment
 ```bash
 echo PORT=3000 > .env
 ```
 
-5. Run application
+4. Run application
 ```bash
 go run main.go
 ```
